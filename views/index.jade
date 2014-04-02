@@ -1,0 +1,6 @@
+extends layout
+
+block content      
+ form(action='/addshow', method='POST')
+  input(type='text' name='show')
+  button(type='subit', name='submit', value='add') Add
